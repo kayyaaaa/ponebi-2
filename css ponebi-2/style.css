@@ -1,5 +1,10 @@
 body{
-    background: url(img/img.png), lightgray 50% / cover no-repeat;
+    background: url(img/img.png), lightgray 50%;
+    width: 1440px;
+    height: 1104px;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .h1{
 color: #C3C3C3;
